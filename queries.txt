@@ -1,6 +1,6 @@
 mutation {
   createOwner(owner: {name: "R"}) {
-		id,
+    id,
     name,
   }
 }
