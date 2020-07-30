@@ -43,16 +43,25 @@ const owners = [
 
 const animals = [
   {
-    name: 'Burek', size: 'big', breed: 'dog',
-    age: 11, birthPlace: 'Cracow', ownerId: 1,
+    id: 1,
+    name: 'Burek',
+    birthPlace: 'Cracow',
+    ownerId: 1,
+    nicknames: ['Bury'],
   },
   {
-    name: 'Azor', size: 'medium', breed: 'dog',
-    age: 6, birthPlace: 'Warsaw', ownerId: 2,
+    id: 2,
+    name: 'Azor',
+    birthPlace: 'Warsaw',
+    ownerId: 1,
+    nicknames: ['Azorek', 'Maly'],
   },
   {
-    name: 'Burek', size: 'small', breed: 'cat',
-    age: 3, birthPlace: 'Berlin', ownerId: 2,
+    id: 1,
+    name: 'Reksio',
+    birthPlace: 'Cracow',
+    ownerId: 2,
+    nicknames: [],
   },
 ];
 
